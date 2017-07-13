@@ -1,1 +1,4 @@
 # THE-SIMPLE-ARDUINO-WEATHER-WEB-SERVER
+This project is to set up a home web server that could display the room temperature, humidity levels and also we monitor the led lights .This approach consists of an Arduino and an Ethernet shield, running a tiny web server sketch, and for this example, we are using the popular DHT-11 Temperature / Humidity sensor(to monitor temperature and humidity).We could use the above idea for many other sensors like gas sensor, LDR sensor (to calculate light intensity in the room) etc.
+Make the connections according to circuit shown in led_connection.png and dht11_connection.png and also check for working of individual components by executing dht11test.ino and ledTest.ino files.
+If everything is working fine then execute the main_client.ino file and type the ip (mentioned in the code) in on the url bar of your browser and check for working. 
